@@ -1,0 +1,21 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("YourMomHub", "Synapse")
+
+--Tabs n shit
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("idk what to do")
+
+
+MainSection:NewButton("IV Admin V2", "What'cu lookin at cuh", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hexx/main/Iv%20Admin/Admin%202.lua'))()
+end)
+
+MainSection:NewButton("IV Admin V3", "192.272.161.408.816", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hexx/main/Iv%20Admin/Admin.lua'))()
+end)
+
+MainSection:NewButton("R15 Emotes", "29/6/28", function()
+    https://raw.githubusercontent.com/BloodyBurns/Hexx/main/R15%20Emotes/R15%20Emotes.lua
+end)
+
